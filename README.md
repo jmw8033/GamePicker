@@ -1,7 +1,7 @@
 # GamePicker
 Do you ever struggle picking a game to play? Do you ever wish someone could just pick a game for you but also have a good chance of picking a game you actually want to play? Well look no further, for behold, The GamePicker!
 
-![image](https://github.com/jmw8033/GamePicker/assets/117494166/18d0db4d-c1c0-4810-a5f7-a93200f951c5)
+![ezgif-2-45ba3424b1](https://github.com/jmw8033/GamePicker/assets/117494166/eb9a48e6-a756-42f6-b617-e983f84f2363)
 
 ## Features
 - **Categories** - Create categories and then fill them with games!
@@ -16,8 +16,6 @@ Do you ever struggle picking a game to play? Do you ever wish someone could just
 - **Home** - Goes back to the start!
 - **Reset** - Deletes your saved data! (it automatically saves your stuff as data.pkl in the same location as the program)
 - **Pick For Me** - Picks your category/game!
-
-![ezgif-2-45ba3424b1](https://github.com/jmw8033/GamePicker/assets/117494166/eb9a48e6-a756-42f6-b617-e983f84f2363)
 
 ## Installation
 Just download GamePicker.py and run!
