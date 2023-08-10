@@ -14,7 +14,7 @@ Do you ever struggle picking a game to play? Do you ever wish someone could just
 - **Add Category** - What do you think?
 - **Add Game** - ^^^
 - **Home** - Goes back to the start!
-- **Reset** - Deletes your saved data! (it automatically saves your stuff as data.pkl in the same file as the program)
+- **Reset** - Deletes your saved data! (it automatically saves your stuff as data.pkl in the same location as the program)
 - **Pick For Me** - Picks your category/game!
   
 ![image](https://github.com/jmw8033/GamePicker/assets/117494166/74cb423e-9f5b-4e98-9a60-fc35de187615)
