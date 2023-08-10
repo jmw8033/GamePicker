@@ -3,6 +3,7 @@ import tkinter as tk
 import random
 import pickle
 import os
+import time
 
 def save_data(categories):
     # Save data to file using pickle
@@ -206,6 +207,7 @@ class App(tk.Tk):
                     if type == self.categories:
                         messagebox.showinfo("Picked Category", final_choice.name)
                         self.select_category(final_choice)
+                        self.after(500, lambda: self.pick_animation(self.game_buttons, self.selected_category.games))
                     elif type == self.selected_category.games:
                         messagebox.showinfo("Picked Game", final_choice.name)
                         self.home()
