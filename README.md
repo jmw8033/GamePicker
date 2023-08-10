@@ -16,8 +16,8 @@ Do you ever struggle picking a game to play? Do you ever wish someone could just
 - **Home** - Goes back to the start!
 - **Reset** - Deletes your saved data! (it automatically saves your stuff as data.pkl in the same location as the program)
 - **Pick For Me** - Picks your category/game!
-  
-![image](https://github.com/jmw8033/GamePicker/assets/117494166/74cb423e-9f5b-4e98-9a60-fc35de187615)
+
+![ezgif-2-45ba3424b1](https://github.com/jmw8033/GamePicker/assets/117494166/eb9a48e6-a756-42f6-b617-e983f84f2363)
 
 ## Installation
 Just download GamePicker.py and run!
