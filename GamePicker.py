@@ -3,7 +3,6 @@ import tkinter as tk
 import random
 import pickle
 import os
-import time
 
 def save_data(categories):
     # Save data to file using pickle
