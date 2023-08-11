@@ -204,13 +204,13 @@ class App(tk.Tk):
             for button, type_item in zip(buttons, type):
                 if type_item == final_choice:
                     button.config(bg="blue")
-                    self.pick_button.config(state=tk.NORMAL)
                     if type == self.categories:
                         messagebox.showinfo("Picked Category", final_choice.name)
                         self.select_category(final_choice)
                         self.after(500, lambda: self.pick_animation(self.game_buttons, self.selected_category.games))
                     elif type == self.selected_category.games:
                         messagebox.showinfo("Picked Game", final_choice.name)
+                        self.pick_button.config(state=tk.NORMAL)
                         self.home()
                     break
 
