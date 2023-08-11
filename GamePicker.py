@@ -180,6 +180,7 @@ class App(tk.Tk):
 
 
     def pick(self):
+        self.pick_button.config(state=tk.DISABLED)
         if not self.picking_game:
             self.pick_animation(self.category_buttons, self.categories)
         else:
@@ -203,6 +204,7 @@ class App(tk.Tk):
             for button, type_item in zip(buttons, type):
                 if type_item == final_choice:
                     button.config(bg="blue")
+                    self.pick_button.config(state=tk.NORMAL)
                     if type == self.categories:
                         messagebox.showinfo("Picked Category", final_choice.name)
                         self.select_category(final_choice)
